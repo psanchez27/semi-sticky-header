@@ -16,3 +16,9 @@ if (!defined('WPINC')) {
 }
 
 define('SEMI_STICKY_HEADER_URL', plugin_dir_url(__FILE__));
+
+//Include plugin CSS
+include(plugin_dir_path(__FILE__) . 'includes/semi-sticky-header-styles.php');
+
+//Include plugin SJ
+include(plugin_dir_path(__FILE__) . 'includes/semi-sticky-header-scripts.php');
