@@ -1,5 +1,11 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/* Header styles */
+header{
+  transition: .2s ease-in-out;
+}
+header.fixed-header{
+  position: fixed;
+  top: 0;
+}
+header.fixed-header.hide{
+  top: -100%;
 }
