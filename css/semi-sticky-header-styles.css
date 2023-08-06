@@ -5,7 +5,20 @@ header{
 header.fixed-header{
   position: fixed;
   top: 0;
+  z-index: 99;
+  width: 100%;
 }
 header.fixed-header.hide{
   top: -100%;
+}
+
+
+/* Adjustment for admin bar */
+header.push{
+  top: 32px;
+}
+@media only screen and (max-width: 782px){
+  header.push{
+    top: 46px;
+  }
 }

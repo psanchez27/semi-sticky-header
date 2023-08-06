@@ -11,14 +11,14 @@
 */
 
 //If this file is called directly, abort
-if (!defined('WPINC')) {
+if ( !defined('WPINC') ) {
   die;
 }
 
-define('SEMI_STICKY_HEADER_URL', plugin_dir_url(__FILE__));
+define( 'SEMI_STICKY_HEADER_URL', plugin_dir_url(__FILE__) );
 
 //Include plugin CSS
-include(plugin_dir_path(__FILE__) . 'includes/semi-sticky-header-styles.php');
+include( plugin_dir_path(__FILE__) . 'includes/semi-sticky-header-styles.php' );
 
 //Include plugin JS
-include(plugin_dir_path(__FILE__) . 'includes/semi-sticky-header-scripts.php');
+include( plugin_dir_path(__FILE__) . 'includes/semi-sticky-header-scripts.php' );
