@@ -11,8 +11,8 @@
 */
 
 //If this file is called directly, abort
-if ( !defined('WPINC') ) {
-  die;
+if ( ! defined('ABSPATH') ) {
+  exit;
 }
 
 define( 'SEMI_STICKY_HEADER_URL', plugin_dir_url(__FILE__) );
